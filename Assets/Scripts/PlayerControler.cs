@@ -6,6 +6,7 @@ using UnityEngine;
 public class PlayerControler : MonoBehaviour
 {
     private float speed = 3.0f;
+    //ENCAPSULATION
     public static PlayerControler Instance { get; private set; }
 
     private void Awake()

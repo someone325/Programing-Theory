@@ -8,7 +8,6 @@ public class StartButton : MonoBehaviour
 {
     private Button button;
     public int scene_num;
-    // Start is called before the first frame update
     void Start()
     {
         button = GetComponent<Button>();

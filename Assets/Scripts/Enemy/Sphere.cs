@@ -7,6 +7,7 @@ public class Sphere : Enemy
     private float speed = 2.0f;
 
     //The sphere moves towards the player
+    //POLYMORPHISM
     protected override void Move()
     {
         Vector3 direction = (PlayerControler.Instance.transform.position - transform.position).normalized;

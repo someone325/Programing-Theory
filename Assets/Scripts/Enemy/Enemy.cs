@@ -4,7 +4,7 @@ using UnityEngine;
 
 public abstract class Enemy : MonoBehaviour
 {
-    //INHERITANCE
+    //ABSTRACTION and INHERITANCE
     //move is called every frame as long as player is alive
     protected abstract void Move();
     protected void Update()
